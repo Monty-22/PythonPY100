@@ -15,7 +15,7 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 83
+  - offset: 330
     length: 54
     placeholder_text: '# TODO Каждое из значений печатать на отдельной строке'
     initial_state:
@@ -23,7 +23,7 @@ files:
       offset: 83
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: |-
       print(sum(tuple_))
       print(len(tuple_))
@@ -35,5 +35,8 @@ files:
 
     # TODO Каждое из значений печатать на отдельной строке
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Wed, 30 Mar 2022 16:36:51 UTC
 record: -1

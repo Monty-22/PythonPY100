@@ -1,8 +1,11 @@
 def remove_whitespace(str_):
-    words_list = ...  # TODO разделить строку по пробелам
+    words_list = str_.split(" ")
     print(words_list)
 
     words_list_without_empty_string = []
+    for word in words_list:
+        if word:
+         words_list_without_empty_string.append(word)
     # TODO поместить в результирующий список все слова
     print(words_list_without_empty_string)
 

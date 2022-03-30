@@ -1,7 +1,7 @@
 def counter():
-    count = count + 1
+    ount = count + 1
 
-    return count
+    return ount
 
 
 if __name__ == "__main__":

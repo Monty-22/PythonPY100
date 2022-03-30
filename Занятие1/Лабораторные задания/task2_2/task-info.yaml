@@ -8,7 +8,7 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 9
+  - offset: 62
     length: 36
     placeholder_text: '# TODO найти сумму натуральных чисел'
     initial_state:
@@ -16,7 +16,7 @@ files:
       offset: 9
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: print(sum(range(1, N + 1)))
   text: |
     N = 100
@@ -26,5 +26,8 @@ files:
 - name: __init__.py
   visible: false
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Wed, 30 Mar 2022 16:47:58 UTC
 record: -1
