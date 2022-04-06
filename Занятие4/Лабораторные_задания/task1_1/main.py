@@ -1,4 +1,8 @@
-def task(n, m):  # TODO записать функцию с аннотацией типов
+def task(n, m):
+    return [i**2 for i in range(n, m + 1)]
+
+
+    # TODO записать функцию с аннотацией типов
     ...  # TODO с помощью list comprehension найти квадраты целых чисел
 
 

@@ -1,7 +1,8 @@
 def task(num: int):
-    ...  # TODO сформировать список цифр
+    L = list(str(num))
 
-    if ...:  # TODO записать условие
+
+    if str(4) in L and str(8) in L or str(9) in L:  # TODO записать условие
         print("Входят цифры (4 и 8) или цифра 9")
     else:
         print("Не входят цифры (4 и 8) или цифра 9")

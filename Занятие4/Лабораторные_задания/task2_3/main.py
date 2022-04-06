@@ -1,4 +1,7 @@
-def task(num):  # TODO добавить аннотацию типов
+def task(num):
+    list_digits = [int(digit) for digit in str(abs(num))]
+    return True if 10 <= sum(list_digits) <= 99 else False
+    # TODO добавить аннотацию типов
     ...  # TODO найти сумму цифр числа и понять двузначная ли она
 
 

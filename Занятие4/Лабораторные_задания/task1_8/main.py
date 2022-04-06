@@ -1,4 +1,7 @@
-def task():  # TODO записать решение в виде функции
+def task(list_1):
+    L = [i**3 if i > 0 else  0 for i in list_1]
+    return L
+    # TODO записать решение в виде функции
     ...
 
 

@@ -3,7 +3,7 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 79
+  - offset: 223
     length: 55
     placeholder_text: '...  # TODO получить два списка четных и нечетных чисел'
     initial_state:
@@ -11,11 +11,11 @@ files:
       offset: 79
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: |-
       list_even = [num for num in list_ if num % 2 == 0]
           list_odd = [num for num in list_ if num % 2 == 1]
-  - offset: 140
+  - offset: 284
     length: 36
     placeholder_text: '...  # TODO найти длины этих списков'
     initial_state:
@@ -23,11 +23,11 @@ files:
       offset: 140
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: |-
       len_even = len(list_even)
           len_odd = len(list_odd)
-  - offset: 182
+  - offset: 326
     length: 77
     placeholder_text: '...  # TODO распечатать каких чисел больше. Учтите, что длины
       могу быть равны'
@@ -36,7 +36,7 @@ files:
       offset: 182
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: |-
       if len_odd > len_even:
               print("Нечетные")
@@ -56,6 +56,8 @@ files:
 - name: __init__.py
   visible: false
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  time: Wed, 06 Apr 2022 16:49:30 UTC
 record: -1
 post_submission_on_open: true
